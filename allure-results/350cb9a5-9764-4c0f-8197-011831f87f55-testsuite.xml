@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640545824032' stop='1640545825352'>
+    <name>Test New Scenario </name>
+    <title>Test New Scenario </title>
+    <test-cases>
+        <test-case start='1640545824033' status='broken' stop='1640545825351'>
+            <name>Test Hello World</name>
+            <title>Test Hello World</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allure is not a function</message>
+                <stack-trace>TypeError: allure is not a function
+                    at Context.&lt;anonymous> (test/getAPItest.js:44:18)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+            <description type='text'>Now in TEST</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

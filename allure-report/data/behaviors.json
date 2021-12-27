@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Hello World",
+    "uid" : "1e0209a8297024ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640546563418,
+      "stop" : 1640546564481,
+      "duration" : 1063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test IT",
+    "uid" : "697a90e947ee1e06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640546707748,
+      "stop" : 1640546708913,
+      "duration" : 1165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

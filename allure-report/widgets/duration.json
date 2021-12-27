@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1e0209a8297024ca",
+  "name" : "Test Hello World",
+  "time" : {
+    "start" : 1640546563418,
+    "stop" : 1640546564481,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "697a90e947ee1e06",
+  "name" : "Test IT",
+  "time" : {
+    "start" : 1640546707748,
+    "stop" : 1640546708913,
+    "duration" : 1165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

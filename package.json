@@ -1,0 +1,25 @@
+{
+  "name": "pactum_practice",
+  "version": "1.0.0",
+  "description": "Checking pactum",
+  "main": "index.js",
+  "scripts": {
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "test": "mocha 'test/*.js' --reporter mocha-allure-reporter",
+    "start": "npm test"
+
+  },
+  "author": "IBO",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.17.2",
+    "express": "^4.17.2",
+    "mocha-allure-reporter": "^1.4.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "pactum": "^3.1.1"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "1e0209a8297024ca",
+  "name" : "Test Hello World",
+  "fullName" : "Test New Scenario .Test Hello World",
+  "historyId" : "ed8c0cb4cd719d77972ca572541b7c82",
+  "time" : {
+    "start" : 1640546563418,
+    "stop" : 1640546564481,
+    "duration" : 1063
+  },
+  "description" : "Now in TEST",
+  "descriptionHtml" : "<p>Now in TEST</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testClass",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Hello World"
+  }, {
+    "name" : "package",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29719f52fd7af61e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640546402954,
+        "stop" : 1640546404045,
+        "duration" : 1091
+      }
+    }, {
+      "uid" : "608a99e3d757b30a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640546347312,
+        "stop" : 1640546348407,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "b72e2fc2e2aee0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640546256990,
+        "stop" : 1640546258408,
+        "duration" : 1418
+      }
+    }, {
+      "uid" : "32884b78afa3242a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640545919279,
+        "stop" : 1640545920604,
+        "duration" : 1325
+      }
+    }, {
+      "uid" : "edbab72462bc97f5",
+      "status" : "broken",
+      "statusDetails" : "allure is not a function",
+      "time" : {
+        "start" : 1640545824033,
+        "stop" : 1640545825351,
+        "duration" : 1318
+      }
+    }, {
+      "uid" : "7c3b427f16ded1f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640544808350,
+        "stop" : 1640544809432,
+        "duration" : 1082
+      }
+    }, {
+      "uid" : "ffb35a82c9ad8690",
+      "status" : "failed",
+      "statusDetails" : "HTTP status 200 !== 404",
+      "time" : {
+        "start" : 1640544609504,
+        "stop" : 1640544610615,
+        "duration" : 1111
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e0209a8297024ca.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "697a90e947ee1e06",
+  "name" : "Test IT",
+  "fullName" : "Test Describe .Test IT",
+  "historyId" : "b87bae3fe9333522540b80b2e6927824",
+  "time" : {
+    "start" : 1640546707748,
+    "stop" : 1640546708913,
+    "duration" : 1165
+  },
+  "description" : "Now in TEST",
+  "descriptionHtml" : "<p>Now in TEST</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Describe "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Describe "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test IT"
+  }, {
+    "name" : "package",
+    "value" : "Test Describe "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "697a90e947ee1e06.json",
+  "parameterValues" : [ ]
+}

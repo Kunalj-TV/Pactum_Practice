@@ -1,0 +1,48 @@
+{
+  "uid" : "b72e2fc2e2aee0b7",
+  "name" : "Test Hello World",
+  "fullName" : "Test New Scenario .Test Hello World",
+  "historyId" : "ed8c0cb4cd719d77972ca572541b7c82",
+  "time" : {
+    "start" : 1640546256990,
+    "stop" : 1640546258408,
+    "duration" : 1418
+  },
+  "description" : "Now in TEST",
+  "descriptionHtml" : "<p>Now in TEST</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testClass",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Hello World"
+  }, {
+    "name" : "package",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b72e2fc2e2aee0b7.json",
+  "parameterValues" : [ ]
+}

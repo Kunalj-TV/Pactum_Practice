@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test New Scenario ",
+    "children" : [ {
+      "name" : "Test Hello World",
+      "uid" : "1e0209a8297024ca",
+      "parentUid" : "21a9614c1daa3a991a22b324a24bcbbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640546563418,
+        "stop" : 1640546564481,
+        "duration" : 1063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21a9614c1daa3a991a22b324a24bcbbf"
+  }, {
+    "name" : "Test Describe ",
+    "children" : [ {
+      "name" : "Test IT",
+      "uid" : "697a90e947ee1e06",
+      "parentUid" : "bb70118b11625c80d661a9eb87b07f58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640546707748,
+        "stop" : 1640546708913,
+        "duration" : 1165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb70118b11625c80d661a9eb87b07f58"
+  } ]
+}

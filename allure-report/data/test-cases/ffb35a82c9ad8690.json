@@ -1,0 +1,50 @@
+{
+  "uid" : "ffb35a82c9ad8690",
+  "name" : "Test Hello World",
+  "fullName" : "Test New Scenario .Test Hello World",
+  "historyId" : "ed8c0cb4cd719d77972ca572541b7c82",
+  "time" : {
+    "start" : 1640544609504,
+    "stop" : 1640544610615,
+    "duration" : 1111
+  },
+  "description" : "Now in TEST",
+  "descriptionHtml" : "<p>Now in TEST</p>\n",
+  "status" : "failed",
+  "statusMessage" : "HTTP status 200 !== 404",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: HTTP status 200 !== 404\n                    at Expect._validateStatus (node_modules/pactum/src/models/expect.js:100:14)\n                    at Expect.validate (node_modules/pactum/src/models/expect.js:45:10)\n                    at Tosser.validateResponse (node_modules/pactum/src/models/Tosser.js:225:23)\n                    at Tosser.validate (node_modules/pactum/src/models/Tosser.js:192:18)\n                    at Tosser.toss (node_modules/pactum/src/models/Tosser.js:42:18)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testClass",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Hello World"
+  }, {
+    "name" : "package",
+    "value" : "Test New Scenario "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffb35a82c9ad8690.json",
+  "parameterValues" : [ ]
+}
