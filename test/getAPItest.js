@@ -14,7 +14,7 @@ var mocha = new Mocha({
         targetDir: outDir
     }
 });*/
-describe("Test Describe ", () => {
+describe("Test Scenario", () => {
 
 const testStep = allure.createStep("initial", () => {
     // do something
@@ -25,7 +25,7 @@ const testStep = allure.createStep("initial", () => {
       throw new Error("Make test broken");
     });
 
-it("Test IT",async () => {
+it("Test Case",async () => {
 //testStep();
 allure.description("Now in TEST")
    await pactum.spec()
