@@ -14,7 +14,7 @@ var mocha = new Mocha({
         targetDir: outDir
     }
 });*/
-describe("Test Scenario", () => {
+describe("Get Banners Scenario", () => {
 
 const testStep = allure.createStep("initial", () => {
     // do something
@@ -25,7 +25,7 @@ const testStep = allure.createStep("initial", () => {
       throw new Error("Make test broken");
     });
 
-it("Test Case",async () => {
+it("Get Banners Test",async () => {
 //testStep();
 allure.description("Now in TEST")
    await pactum.spec()
@@ -41,7 +41,5 @@ allure.description("Now in TEST")
        title: 'Laminates'
      });
     })
-
-
 });
 
